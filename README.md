@@ -2,6 +2,7 @@
 Coding projects done during the Master Program in Big Data and Analytics at IE University in 2019 - 2020.
 
 - KAGGLE:
+
 Build a Binary Text Classifier that decides if a given Tweet is a about a Real Disaster (1) or Not (0), making use of different 
 NLP techniques, processes and libraries. The pipeline I built is coded in Python, using mainly NLTK and Scikit-Learn. Steps:
 EDA - Data Cleaning - Text Processing - Modelling

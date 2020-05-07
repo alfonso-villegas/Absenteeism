@@ -8,6 +8,7 @@ NLP techniques, processes and libraries. The pipeline I built is coded in Python
 EDA - Data Cleaning - Text Processing - Modelling
 Competition: https://www.kaggle.com/c/nlp-getting-started
 
+
 - MACHINE LEARNING WITH PYTHON:
   
   -- Group X PROJECT --

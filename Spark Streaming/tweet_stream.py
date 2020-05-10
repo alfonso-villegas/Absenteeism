@@ -44,8 +44,6 @@ def process_rdd(time, rdd):
         feeling_counts_df.show()
         feeling_pandas = feeling_counts_df.toPandas()
         feeling_pandas.to_csv('user_feeling.csv', header=True, index=True)
-        #feeling_counts_df.repartition(1).write.format('com.databricks.spark.csv').save("/data/home/alfonso.villegas/myfile.csv",header = 'true')
-        #feeling_counts_df.write.format('com.databricks.spark.csv').save("/data/home/alfonso.villegas/feelings.csv")
     except:
         e = sys.exc_info()[0]
         print("No Relevant Data")
@@ -68,20 +66,18 @@ lines = ssc.socketTextStream("localhost", 9595)
 
 # filters tweets to get only the ones with Verizon
 verizon_tweet = lines.filter(lambda s: 'Verizon' in s or 'verizon' in s or '@Verizon' in s or '@VerizonSupport' in s)
-    # Each element of verizon_tweet will be the text of a tweet.
-    # You need to find the count of all the positive and negative words in these tweets.
-    # Keep track of a running total counts and print this at every time step (use the pprint function).
-    #word = verizon_tweet.flatMap(lambda k: k.split(" "))
+# Each element of verizon_tweet will be the text of a tweet.
+
+#word = verizon_tweet.flatMap(lambda k: k.split(" "))
 wordsType = verizon_tweet.map(lambda k: orientation(k,pwords,nwords))
 
-    #count = wordsType.reduceByKey(lambda a, b : a + b)
-    # Let the counts variable hold the word counts for all time steps
-    # You will need to use the foreachRDD function.
-    # For our implementation, counts looked like:
-    #   [[("positive", 100), ("negative", 50)], [("positive", 80), ("negative", 60)], ...]
-
+# Adding the count of each user to it's last count, using updateStateByKey
 cts = wordsType.updateStateByKey(aggregate_tags_count)
+
+# Keep track of a running total counts and print this at every time stepusing the pprint function.
 cts.pprint()
+
+# We will use the foreachRDD function, to execute the SQL code.
 cts.foreachRDD(process_rdd)
 
 # start the streaming computation

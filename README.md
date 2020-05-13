@@ -10,7 +10,7 @@ Competition: https://www.kaggle.com/c/nlp-getting-started
 
 
 #### - BUSINESS ANALYTICS:
-### - Data-Driven Business Strategies - ML models in Python
+##### - Data-Driven Business Strategies - ML models in Python
   
 - Editorial Group X:
 

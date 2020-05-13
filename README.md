@@ -9,9 +9,10 @@ EDA - Data Cleaning - Text Processing - Modelling
 Competition: https://www.kaggle.com/c/nlp-getting-started
 
 
-#### - MACHINE LEARNING WITH PYTHON:
+#### - BUSINESS ANALYTICS:
+### - Data-Driven Business Strategies - ML models in Python
   
-- Group X PROJECT:
+- Editorial Group X:
 
 Extensive project competition to build a data driven business strategy for one of Spain's largest Publishing Companies. Main goals:
 1. Design and implement a data cleaning process, ML pipeline and model that predicted the schools and classes that would stop using 

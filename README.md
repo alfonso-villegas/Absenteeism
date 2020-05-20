@@ -4,7 +4,7 @@ Coding projects done during the Master Program in Big Data and Analytics at IE U
 #### - BUSINESS ANALYTICS:
 ##### - Data-Driven Business Strategies - ML models in Python
   
-- Editorial Group X:
+- Editorial X:
 
 Extensive project competition to build a data driven business strategy for one of Spain's largest Publishing Companies. Main goals:
 1. Design and implement a data cleaning process, ML pipeline and model that predicted the schools and classes that would stop using 

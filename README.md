@@ -1,7 +1,7 @@
 ## MBD-IE
 Coding projects done during the Master Program in Big Data and Analytics at IE University in 2019 - 2020.
 
-### BUSINESS ANALYTICS:
+### Business Analytics:
 Data-Driven Business Strategies and ML models coded in Python:
   
 #### Editorial X:
@@ -15,7 +15,7 @@ in the previous step. Files: Business Strategy.pdf
 Machine Learning pipeline including Feature Engineering and EDA, to predict absenteeism doing classification with Logistic Regression. The client being the HR department of a given company.
 
 
-### KAGGLE:
+### Kaggle:
 
 Binary Text Classifier that decides if a given Tweet is a about a Real Disaster (1) or Not (0), making use of different 
 NLP techniques, processes, libraries and algorithms. The pipeline I built is coded in Python, using mainly NLTK and Scikit-Learn. Steps:

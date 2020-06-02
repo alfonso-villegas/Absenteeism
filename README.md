@@ -16,10 +16,9 @@ Machine Learning pipeline including Feature Engineering and EDA, to predict abse
 
 
 ### Kaggle:
-
 Binary Text Classifier that decides if a given Tweet is a about a Real Disaster (1) or Not (0), making use of different 
 NLP techniques, processes, libraries and algorithms. The pipeline I built is coded in Python, using mainly NLTK and Scikit-Learn. Steps:
-EDA - Data Cleaning - Text Processing - Modelling
+EDA - Data Cleaning - Text Processing - Modelling. 
 Competition: https://www.kaggle.com/c/nlp-getting-started
 
 
@@ -29,3 +28,11 @@ Designed and implemented a DB that replicated the structure and main components 
 
 ### Spark Streaming:
 Snatch is a tool that allows companies to identify customer acquisition opportunities in real-time by analysing Twitter data. We spot your competitors’ unsatisfied customers and generate insights immediately, so that you can approach them in a timely manner. Tweets are ingested from Twitter's API, filtered and analyzed (sentiment analysis) using Spark Streaming and Spark SQL in real-time.
+
+
+### Spark:
+Big Data Analytics: Dataframe manipulation and aggregations using PySpark and Spark SQL for two different projects, Flight Delay Analysis on USA airports, and World Bank Contracts Analysis.
+
+
+### Time Series Forecast in R:
+Forecasting a given Time Series using Seasonal Auto-Regressive Integrated Moving Average (SARIMA) models coded in R. I created two different models, and provided pretty accurate predictions for both of them.

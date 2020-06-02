@@ -4,14 +4,14 @@ Coding projects done during the Master Program in Big Data and Analytics at IE U
 ### BUSINESS ANALYTICS:
 #### Data-Driven Business Strategies - ML models in Python
   
-Editorial X:
+#### Editorial X:
 Extensive project competition to build a data driven business strategy for one of Spain's largest Publishing Companies. Main goals:
 1. Design and implement a data cleaning process, ML pipeline and model that predicted the schools and classes that would stop using 
 "standard" educational material and would start creating their own. Files: final_code.ipynb, ML_pipeline.ipynb, Technical Document.pdf
 2. Design a nationwide business approach and sales strategy for customer acquisition, targetting potential customers that were predicted
 in the previous step. Files: Business Strategy.pdf
 
-HR Predicting Absenteeism:
+#### HR Predicting Absenteeism:
 Machine Learning pipeline including Feature Engineering and EDA, to predict absenteeism doing classification with Logistic Regression and coded in Python. The client being the HR department of a given company.
 
 

@@ -2,7 +2,7 @@
 Coding projects done during the Master Program in Big Data and Analytics at IE University in 2019 - 2020.
 
 ### BUSINESS ANALYTICS:
-#### Data-Driven Business Strategies - ML models in Python
+Data-Driven Business Strategies and ML models coded in Python:
   
 #### Editorial X:
 Extensive project competition to build a data driven business strategy for one of Spain's largest Publishing Companies. Main goals:
@@ -12,7 +12,7 @@ Extensive project competition to build a data driven business strategy for one o
 in the previous step. Files: Business Strategy.pdf
 
 #### HR Predicting Absenteeism:
-Machine Learning pipeline including Feature Engineering and EDA, to predict absenteeism doing classification with Logistic Regression and coded in Python. The client being the HR department of a given company.
+Machine Learning pipeline including Feature Engineering and EDA, to predict absenteeism doing classification with Logistic Regression. The client being the HR department of a given company.
 
 
 ### KAGGLE:
@@ -27,3 +27,5 @@ Competition: https://www.kaggle.com/c/nlp-getting-started
 Designed and implemented a DB that replicated the structure and main components of the solar system. ERD designed in MySQL, and DB created using DDL and DML statements directly in DB2. Complex queries to answer specific questions using DQL statements in DB2 as well.
 
 
+### Spark Streaming:
+Snatch is a tool that allows companies to identify customer acquisition opportunities in real-time by analysing Twitter data. We spot your competitors’ unsatisfied customers and generate insights immediately, so that you can approach them in a timely manner. Tweets are ingested from Twitter's API, filtered and analyzed (sentiment analysis) using Spark Streaming and Spark SQL in real-time.

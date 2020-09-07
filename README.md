@@ -1,5 +1,5 @@
 ## MBD-IE
-Coding projects done during the Master Program in Big Data and Analytics at IE University in 2019 - 2020.
+Some of the most relevant coding projects done during the Master Program in Big Data and Analytics at IE University in 2019 - 2020.
 
 ### Business Analytics:
 Data-Driven Business Strategies and ML models coded in Python:
